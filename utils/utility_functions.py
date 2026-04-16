@@ -1,4 +1,23 @@
+
+import torch
+import torch.nn.functional as F
+from typing import Optional, Callable, Dict
+from tqdm.notebook import tqdm, trange
+
+
+
+
+
+
+
+
+
+
 # Just a function to count the number of parameters
+
+
+
+
 def count_parameters(model: torch.nn.Module) -> int:
   """ Counts the number of trainable parameters of a module
 
